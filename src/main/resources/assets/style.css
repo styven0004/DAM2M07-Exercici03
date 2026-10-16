@@ -1,0 +1,126 @@
+/* ---------- Base ---------- */
+.root-pane {
+    -fx-background-color: white;
+    -fx-font-family: "System";
+}
+
+.chat-scroll {
+    -fx-background-color: transparent;
+    -fx-background: white;
+    -fx-padding: 0;
+}
+
+.chat-scroll > .viewport {
+    -fx-background-color: white;
+}
+
+.chat-box {
+    -fx-background-color: white;
+}
+
+/* ---------- Missatges ---------- */
+.sender {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.message-text {
+    -fx-font-size: 15px;
+    -fx-text-fill: #374151;
+    -fx-line-spacing: 3px;
+}
+
+.message-text.thinking {
+    -fx-text-fill: #9ca3af;
+    -fx-font-style: italic;
+}
+
+.message-text.error {
+    -fx-text-fill: #b91c1c;
+}
+
+.note {
+    -fx-font-size: 12px;
+    -fx-text-fill: #9ca3af;
+    -fx-font-style: italic;
+}
+
+/* ---------- Imatge pendent ---------- */
+.attachment-bar {
+    -fx-background-color: #f3f4f6;
+    -fx-background-radius: 12;
+    -fx-padding: 6 10 6 6;
+}
+
+.attachment-name {
+    -fx-text-fill: #374151;
+    -fx-font-size: 13px;
+}
+
+.remove-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #6b7280;
+    -fx-cursor: hand;
+    -fx-padding: 2 6 2 6;
+}
+
+.remove-button:hover {
+    -fx-text-fill: #111827;
+}
+
+/* ---------- Barra d'entrada ---------- */
+.input-bar {
+    -fx-background-color: white;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 18;
+    -fx-background-radius: 18;
+    -fx-padding: 8 10 8 10;
+}
+
+.input-field {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-font-size: 15px;
+    -fx-text-fill: #111827;
+    -fx-prompt-text-fill: #9ca3af;
+}
+
+.icon-button {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-padding: 4;
+}
+
+.attach-icon {
+    -fx-fill: #111827;
+}
+
+.icon-button:hover .attach-icon {
+    -fx-fill: #4b5563;
+}
+
+.send-button {
+    -fx-background-color: #e5e7eb;
+    -fx-background-radius: 8;
+    -fx-min-width: 32;
+    -fx-min-height: 32;
+    -fx-pref-width: 32;
+    -fx-pref-height: 32;
+    -fx-padding: 0;
+}
+
+.send-button:disabled {
+    -fx-opacity: 1;
+}
+
+.send-button.active {
+    -fx-background-color: #111827;
+    -fx-cursor: hand;
+}
+
+.send-button.active:hover {
+    -fx-background-color: #374151;
+}
