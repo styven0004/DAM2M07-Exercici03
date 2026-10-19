@@ -60,7 +60,7 @@ public class Controller implements Initializable {
     // Model configuration (Agents IETI)
     private static final String MODEL_NAME = "Qwen38";
     private static final String MODEL_URL = "https://agents.ieti.site/v1/chat/completions";
-    private static final String MODEL_KEY = "ieti_sk_k33fAWVP8NWWZ8U4WxTJ7AbwBEkcxsz9zQrMItCEso8"; // Replace with your actual API key
+    private static final String MODEL_KEY = "ieti_sk_wzZ_MsoRFTJ5d1mvF7Fl73nsjXV40ZC1sFglqHpQWIY"; // Replace with your actual API key
 
     // Model configuration (Ollama local, compatible amb el protocol OpenAI)
     // private static final String MODEL_NAME = "qwen3-vl";
